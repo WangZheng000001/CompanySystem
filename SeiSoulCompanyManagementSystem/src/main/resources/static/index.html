@@ -1,30 +1,30 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
     <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <title>正創公司管理系统</title>
-    <link rel="stylesheet"  href="css/index-style.css" />
+    <link rel="stylesheet"  href="css/index.css"/>
 </head>
 <body>
 <div class="login_div">
 
     <div class="title">员工号登入</div>
-
+    <form action = "/login">
     <div class="account">
-        <img class="icon" src="pictures/account.png"/>
+        <img class="icon" name="account" src="images/account.png"/>
         <input class="input" placeholder="请输入您的员工号" />
     </div>
     <div class="password">
-        <img class="icon" src="locker.png"/>
-        <input class="input" placeholder="请输入您的密码" />
+        <img class="icon" src="images/locker.png"/>
+        <input class="input" name="password" type="password" placeholder="请输入您的密码" />
     </div>
 
     <div class="forgot">忘记密码</div>
 
-    <button id="submit" >登  入</button>
+    <button id="submit" >登 入</button>
+    </form>
 </div>
-
 </body>
 </html>
